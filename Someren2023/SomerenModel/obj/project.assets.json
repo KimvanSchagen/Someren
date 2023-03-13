@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj",
+      "projectUniqueName": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj",
       "projectName": "SomerenModel",
-      "projectPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj",
+      "projectPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj",
       "packagesPath": "C:\\Users\\kimva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\obj\\",
+      "outputPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kimva\\AppData\\Roaming\\NuGet\\NuGet.Config",

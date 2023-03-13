@@ -529,11 +529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenUI\\SomerenUI.csproj",
+      "projectUniqueName": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenUI\\SomerenUI.csproj",
       "projectName": "SomerenUI",
-      "projectPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenUI\\SomerenUI.csproj",
+      "projectPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenUI\\SomerenUI.csproj",
       "packagesPath": "C:\\Users\\kimva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenUI\\obj\\",
+      "outputPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kimva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -550,11 +550,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj": {
-              "projectPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj"
+            "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj": {
+              "projectPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj"
             },
-            "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenService\\SomerenService.csproj": {
-              "projectPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenService\\SomerenService.csproj"
+            "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenService\\SomerenService.csproj": {
+              "projectPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenService\\SomerenService.csproj"
             }
           }
         }

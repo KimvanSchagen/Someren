@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenDAL\\SomerenDAL.csproj": {}
+    "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenDAL\\SomerenDAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenDAL\\SomerenDAL.csproj": {
+    "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenDAL\\SomerenDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenDAL\\SomerenDAL.csproj",
+        "projectUniqueName": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenDAL\\SomerenDAL.csproj",
         "projectName": "SomerenDAL",
-        "projectPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenDAL\\SomerenDAL.csproj",
+        "projectPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenDAL\\SomerenDAL.csproj",
         "packagesPath": "C:\\Users\\kimva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenDAL\\obj\\",
+        "outputPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj": {
-                "projectPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj"
+              "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj": {
+                "projectPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj": {
+    "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj",
+        "projectUniqueName": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj",
         "projectName": "SomerenModel",
-        "projectPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj",
+        "projectPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj",
         "packagesPath": "C:\\Users\\kimva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\obj\\",
+        "outputPath": "C:\\Users\\kimva\\Documents\\inHolland stuff\\Project Databases\\Someren\\Someren2023\\SomerenModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimva\\AppData\\Roaming\\NuGet\\NuGet.Config",
