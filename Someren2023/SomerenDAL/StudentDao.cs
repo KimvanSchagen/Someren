@@ -9,11 +9,13 @@ namespace SomerenDAL
     {
         public List<Student> GetAllStudents()
         {
-            string query = "SELECT StudentId, Name FROM [TABLE]";
+            //gathering all information about the students present in table 'Student'
+            string query = "SELECT Student.PersonID, Student.StudentNumber, Student.Class, Person.FirstName, Person.LastName, Person.PhoneNumber FROM [Student] INNER JOIN Person ON Student.PersonID = Person.PersonID";
             SqlParameter[] sqlParameters = new SqlParameter[0];
             return ReadTables(ExecuteSelectQuery(query, sqlParameters));
         }
 
+        //storing all information about students from database to a list of students
         private List<Student> ReadTables(DataTable dataTable)
         {
             List<Student> students = new List<Student>();
@@ -22,8 +24,12 @@ namespace SomerenDAL
             {
                 Student student = new Student()
                 {
-                    Number = (int)dr["StudentId"],
-                    Name = dr["Name"].ToString()
+                    PersonID = (int)dr["PersonID"],
+                    FirstName = dr["FirstName"].ToString(),
+                    LastName = dr["LastName"].ToString(),
+                    PhoneNumber = dr["PhoneNumber"].ToString(),
+                    StudentNumber = (int)dr["StudentNumber"],
+                    Class = dr["Class"].ToString(),
                 };
                 students.Add(student);
             }
