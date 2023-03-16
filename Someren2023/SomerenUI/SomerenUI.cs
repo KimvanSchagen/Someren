@@ -11,6 +11,7 @@ namespace SomerenUI
         public SomerenUI()
         {
             InitializeComponent();
+            ShowDashboardPanel();
         }
 
         private void ShowDashboardPanel()
@@ -53,10 +54,15 @@ namespace SomerenUI
         {
             // clear the listview before filling it
             listViewStudents.Clear();
+            listViewStudents.Columns.Add("Column 1");
+            listViewStudents.Columns.Add("Column 2");
+            listViewStudents.Columns.Add("Column 3");
+            listViewStudents.Columns.Add("Column 4");
 
             foreach (Student student in students)
             {
-                ListViewItem li = new ListViewItem(student.Name);
+                ListViewItem li = new ListViewItem(student.StudentNumber.ToString());
+                li.SubItems.Add(student.FirstName);
                 li.Tag = student;   // link student object to listview item
                 listViewStudents.Items.Add(li);
             }
