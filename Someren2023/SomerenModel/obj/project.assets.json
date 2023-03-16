@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\kimva\\.nuget\\packages\\": {}
+    "C:\\Users\\Jeremias\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj",
+      "projectUniqueName": "C:\\Users\\Jeremias\\Source\\Repos\\KimvanSchagen\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj",
       "projectName": "SomerenModel",
-      "projectPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\SomerenModel.csproj",
-      "packagesPath": "C:\\Users\\kimva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kimva\\Downloads\\Someren2023\\SomerenModel\\obj\\",
+      "projectPath": "C:\\Users\\Jeremias\\Source\\Repos\\KimvanSchagen\\Someren\\Someren2023\\SomerenModel\\SomerenModel.csproj",
+      "packagesPath": "C:\\Users\\Jeremias\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jeremias\\Source\\Repos\\KimvanSchagen\\Someren\\Someren2023\\SomerenModel\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\kimva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jeremias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
