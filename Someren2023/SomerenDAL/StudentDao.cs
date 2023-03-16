@@ -10,7 +10,7 @@ namespace SomerenDAL
         public List<Student> GetAllStudents()
         {
             //gathering all information about the students present in table 'Student'
-            string query = "SELECT * FROM [Student] INNER JOIN Person ON Student.PersonID = Person.PersonID";
+            string query = "SELECT Student.PersonID, Student.StudentNumber, Student.Class, Person.FirstName, Person.LastName, Person.PhoneNumber FROM [Student] INNER JOIN Person ON Student.PersonID = Person.PersonID";
             SqlParameter[] sqlParameters = new SqlParameter[0];
             return ReadTables(ExecuteSelectQuery(query, sqlParameters));
         }
@@ -30,8 +30,8 @@ namespace SomerenDAL
                     PhoneNumber = dr["PhoneNumber"].ToString(),
                     StudentNumber = (int)dr["StudentNumber"],
                     Class = dr["Class"].ToString(),
-                    VoucherCredit = (int)dr["VoucherCredit"],
-                    RoomID = (int)dr["RoomID"]
+                    //VoucherCredit = (int)dr["VoucherCredit"],
+                    //RoomID = (int)dr["RoomID"]
                 };
                 students.Add(student);
             }
