@@ -30,8 +30,6 @@ namespace SomerenDAL
                     PhoneNumber = dr["PhoneNumber"].ToString(),
                     StudentNumber = (int)dr["StudentNumber"],
                     Class = dr["Class"].ToString(),
-                    //VoucherCredit = (int)dr["VoucherCredit"],
-                    //RoomID = (int)dr["RoomID"]
                 };
                 students.Add(student);
             }
